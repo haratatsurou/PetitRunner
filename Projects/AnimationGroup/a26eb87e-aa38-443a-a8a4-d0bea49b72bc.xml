@@ -300,7 +300,7 @@
           <CenterY>224</CenterY>
           <ScaleX>1</ScaleX>
           <ScaleY>1</ScaleY>
-          <AngleZ>45</AngleZ>
+          <AngleZ>315</AngleZ>
           <Color>
             <R>255</R>
             <G>255</G>
@@ -326,7 +326,7 @@
           <CenterY>224</CenterY>
           <ScaleX>1</ScaleX>
           <ScaleY>1</ScaleY>
-          <AngleZ>90</AngleZ>
+          <AngleZ>270</AngleZ>
           <Color>
             <R>255</R>
             <G>255</G>
@@ -378,7 +378,7 @@
           <CenterY>224</CenterY>
           <ScaleX>1</ScaleX>
           <ScaleY>1</ScaleY>
-          <AngleZ>270</AngleZ>
+          <AngleZ>90</AngleZ>
           <Color>
             <R>255</R>
             <G>255</G>
@@ -404,7 +404,7 @@
           <CenterY>224</CenterY>
           <ScaleX>1</ScaleX>
           <ScaleY>1</ScaleY>
-          <AngleZ>315</AngleZ>
+          <AngleZ>45</AngleZ>
           <Color>
             <R>255</R>
             <G>255</G>
