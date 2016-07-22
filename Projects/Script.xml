@@ -30,5 +30,11 @@
       <SrcFileName>player.js</SrcFileName>
       <Memo />
     </Item>
+    <Item>
+      <Id>2b89a5f3-5802-4f39-90b9-20f94f7f24d6</Id>
+      <Name>_background2</Name>
+      <SrcFileName>_background2.js</SrcFileName>
+      <Memo />
+    </Item>
   </Items>
 </Param>

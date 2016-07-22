@@ -92,7 +92,7 @@
     </Item>
     <Item>
       <Id>aafc14f6-92bb-4a24-ae2a-a500c6ece6f1</Id>
-      <Name>jump</Name>
+      <Name>jump_up</Name>
       <SettingParam>
         <Id>0815f5fc-d2ed-4532-98e2-b39fe674e3a8</Id>
         <Type>Image</Type>
@@ -152,7 +152,7 @@
             <X>0</X>
             <Y>0</Y>
           </PatternPos>
-          <Time>10</Time>
+          <Time>14</Time>
           <Interpolation>Linear</Interpolation>
           <SEId />
           <OffsetX>0</OffsetX>
@@ -172,13 +172,47 @@
           <UseHorzReverse>False</UseHorzReverse>
           <UseVertReverse>False</UseVertReverse>
         </Item>
+      </FrameDatas>
+      <ChildDatas />
+      <Memo />
+    </Item>
+    <Item>
+      <Id>42d21061-0ca4-4124-bcc2-850143aabcc4</Id>
+      <Name>jump_down</Name>
+      <SettingParam>
+        <Id>424a1d44-79a3-403e-af87-0543187094cb</Id>
+        <Type>Image</Type>
+        <CompositeMode>Normal</CompositeMode>
+        <ImageId>4e2139f7-dc19-4c9a-9c3f-efbf6b77f92f</ImageId>
+        <DivideCount>
+          <Width>1</Width>
+          <Height>1</Height>
+        </DivideCount>
+        <SquareImage>False</SquareImage>
+        <RoundCorner>False</RoundCorner>
+        <RoundSize>1</RoundSize>
+        <TextId />
+        <FontId />
+        <FontSize>16</FontSize>
+        <AutoReturn>False</AutoReturn>
+        <ColumnSpace>0</ColumnSpace>
+        <LineSpace>0</LineSpace>
+        <PositionType>LeftTop</PositionType>
+        <AdjustX>0</AdjustX>
+        <AdjustY>0</AdjustY>
+        <Loop>None</Loop>
+        <LoopCount>0</LoopCount>
+        <ReturnTop>False</ReturnTop>
+      </SettingParam>
+      <Open>False</Open>
+      <FrameDatas>
         <Item>
-          <Id>c991a4bb-20fa-451f-be21-cb92b2e37170</Id>
+          <Id>65bb7cb5-0046-4d5b-b7a5-777c9e4935e6</Id>
           <PatternPos>
             <X>0</X>
             <Y>0</Y>
           </PatternPos>
-          <Time>10</Time>
+          <Time>14</Time>
           <Interpolation>Linear</Interpolation>
           <SEId />
           <OffsetX>0</OffsetX>
@@ -199,7 +233,7 @@
           <UseVertReverse>False</UseVertReverse>
         </Item>
         <Item>
-          <Id>f0e0613c-40eb-4e5d-82bc-c16644564411</Id>
+          <Id>f614e4df-9260-4077-ae44-bd5e867f09d8</Id>
           <PatternPos>
             <X>0</X>
             <Y>0</Y>
@@ -472,7 +506,7 @@
             <X>0</X>
             <Y>0</Y>
           </PatternPos>
-          <Time>10</Time>
+          <Time>16</Time>
           <Interpolation>Linear</Interpolation>
           <SEId />
           <OffsetX>0</OffsetX>

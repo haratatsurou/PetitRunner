@@ -39,16 +39,21 @@ player.prototype.doUpdate = function() {
 			return;
 	}
 		if (this.animation.isEnd) {
-		this.setAnimation("default");
+			if(this.animation.id=="jump_up"){
+				this.setAnimation("jump_down");
+			}else{
+				this.setAnimation("default");
+			}
 	}
+
 	// ※この下にプログラムを追加してください
 };
 
 player.prototype.doMouseUp = function( location, id ) {
 	if(this.animation.id=="default"){
-		this.setAnimation("jump");
+		this.setAnimation("jump_up");
 	}
-	else if(this.animation.id=="jump"){
+	else if(this.animation.id=="jump_up"){
 		this.setAnimation("doublejump");
 	}
 	
