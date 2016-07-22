@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>7166018c-7539-45c7-b533-9b295553bd94</Id>
+  <Name>Image</Name>
+  <Open>True</Open>
+  <Items>
+    <Item>
+      <Id>b8bcfb6c-a632-4674-8490-83175cdc67e5</Id>
+      <Name>_background</Name>
+      <SrcFileName>background.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>1f3bbc5a-0ddc-4424-baae-26ba6087fbe8</Id>
+      <Name>ground</Name>
+      <SrcFileName>ground.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>4e2139f7-dc19-4c9a-9c3f-efbf6b77f92f</Id>
+      <Name>player</Name>
+      <SrcFileName>player.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>0337a70a-b064-4a4e-9981-e7f181ad8dee</Id>
+      <Name>thumbnail</Name>
+      <SrcFileName>thumbnail.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>97043a98-038a-4af2-8b14-ce3de7daa79a</Id>
+      <Name>bgtile</Name>
+      <SrcFileName>bgtile.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>6db7627b-654b-46c4-a129-86746a01a40b</Id>
+      <Name>loading</Name>
+      <SrcFileName>loading.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+  </Items>
+</Param>

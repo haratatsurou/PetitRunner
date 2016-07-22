@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>6aedef5b-a08b-4abf-a862-ef6536312391</Id>
+  <Name>AnimationGroup</Name>
+  <Open>True</Open>
+  <Items>
+    <Item>
+      <Name>Preset</Name>
+      <FileName>2dbd1d27-c3ac-449f-9717-ae72c5bf879b</FileName>
+    </Item>
+    <Item>
+      <Name>_background</Name>
+      <FileName>0eafbe3a-bf29-4c54-9631-5d4b357de32a</FileName>
+    </Item>
+    <Item>
+      <Name>player</Name>
+      <FileName>a26eb87e-aa38-443a-a8a4-d0bea49b72bc</FileName>
+    </Item>
+  </Items>
+</Param>

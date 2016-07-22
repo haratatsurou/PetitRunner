@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Folder>True</Folder>
+  <Id>1833a3f9-273b-4992-816e-2e68f1b58f39</Id>
+  <Name>Preset</Name>
+  <Open>False</Open>
+  <Items>
+    <Item>
+      <Name>Button</Name>
+      <FileName>4ffca48b-3583-443e-bbcb-403bebf2d8f4</FileName>
+    </Item>
+    <Item>
+      <Name>Movie</Name>
+      <FileName>9d4d7b79-8794-4f24-b16e-cac779d13e0c</FileName>
+    </Item>
+    <Item>
+      <Name>Box</Name>
+      <FileName>23210851-7311-4a83-bd51-89abe9588f94</FileName>
+    </Item>
+    <Item>
+      <Name>Text</Name>
+      <FileName>a09e4998-22e1-4202-9f91-04fc3e2d7933</FileName>
+    </Item>
+  </Items>
+  <Memo />
+</Param>

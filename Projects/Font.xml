@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>dcc24950-931f-431e-84b5-db18a2f186ef</Id>
+  <Name>Font</Name>
+  <Open>False</Open>
+  <Items>
+    <Item>
+      <Name>DefaultFont</Name>
+      <FileName>1218182b-31de-40be-a410-674e61f8de91</FileName>
+    </Item>
+  </Items>
+</Param>

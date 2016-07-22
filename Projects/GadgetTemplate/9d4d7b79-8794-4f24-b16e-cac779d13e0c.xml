@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>9d4d7b79-8794-4f24-b16e-cac779d13e0c</Id>
+  <Name>Movie</Name>
+  <SettingParam>
+    <Id>5a724059-ee46-4d5a-a733-a88aeed1840b</Id>
+    <BaseGadgetId>574488cd-7268-41b4-ae08-74aa1a8f7570</BaseGadgetId>
+    <ScriptId />
+    <AnimationGroupId>acef2f1c-abe6-4e21-b560-67b4dbb32174</AnimationGroupId>
+    <ActiveStart>True</ActiveStart>
+    <MarginLeft>0</MarginLeft>
+    <MarginTop>0</MarginTop>
+    <MarginRight>0</MarginRight>
+    <MarginBottom>0</MarginBottom>
+  </SettingParam>
+  <Memo>Sbt.MovieGadget
+
+
+Movie の再生機能を持つ GadgetTemplate です。</Memo>
+</Param>

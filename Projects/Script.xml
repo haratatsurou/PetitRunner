@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>d18d530a-30b3-4213-a92d-9d00d7768f51</Id>
+  <Name>Script</Name>
+  <Open>True</Open>
+  <Items>
+    <Item>
+      <Folder>True</Folder>
+      <Id>933df80f-74d9-4ab0-b809-79c46945692b</Id>
+      <Name>Preset</Name>
+      <Open>False</Open>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>463aa0d5-1365-4489-be5f-e1c83fa87d1c</Id>
+      <Name>lib</Name>
+      <FolderId>933df80f-74d9-4ab0-b809-79c46945692b</FolderId>
+      <SrcFileName>lib.js</SrcFileName>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>c35078e0-0a1c-47a0-bf5a-bee8f9b12c35</Id>
+      <Name>Canvas</Name>
+      <SrcFileName>Canvas.js</SrcFileName>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>f8766011-67e4-4f26-bf56-f30b9b965bec</Id>
+      <Name>player</Name>
+      <SrcFileName>player.js</SrcFileName>
+      <Memo />
+    </Item>
+  </Items>
+</Param>

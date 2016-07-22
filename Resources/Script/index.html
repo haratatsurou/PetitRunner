@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		_Comment_
+		<meta charset="UTF-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" /><meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title>_infoName_</title>
+_SbtLib_
+_UserScript_
+		<script type="text/javascript">
+			var app;
+
+			function init() {
+				app = new Sbt.App("screen", _frameRate_);
+
+				app.start("./", "sbtdata.json", update);
+			}
+			function update() {
+				app.update();
+			}
+		</script>
+	</head>
+	<body onload="init()" style="background: #333333 url( ./Image/bgtile.png ) repeat; margin: 0; padding: 0;">
+		<canvas id="screen" width="0" height="0" style="background-color: black;"></canvas>
+		<!-- スケーリングしない場合は、上の行を下の行に変更してください -->
+		<!-- <canvas id="screen" width="_screenWidth_" height="_screenHeight_" style="background-color: black;"></canvas> -->
+_UserResources_
+	</body>
+</html>

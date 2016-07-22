@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>0096c0d2-bac0-4363-8012-4d4a3fe512c3</Id>
+  <Name>Button</Name>
+  <Open>False</Open>
+  <Items>
+    <Item>
+      <Id>11e04629-4e8d-4475-9897-c8cb3f683bea</Id>
+      <Name>OFF</Name>
+      <SettingParam>
+        <Id>de32c69b-e0ba-4937-95a7-76f9e78aa06d</Id>
+        <Type>Box</Type>
+        <CompositeMode>Normal</CompositeMode>
+        <ImageId />
+        <DivideCount>
+          <Width>1</Width>
+          <Height>1</Height>
+        </DivideCount>
+        <SquareImage>False</SquareImage>
+        <RoundCorner>True</RoundCorner>
+        <RoundSize>16</RoundSize>
+        <TextId />
+        <FontId />
+        <FontSize>16</FontSize>
+        <AutoReturn>False</AutoReturn>
+        <ColumnSpace>0</ColumnSpace>
+        <LineSpace>0</LineSpace>
+        <PositionType>LeftTop</PositionType>
+        <AdjustX>0</AdjustX>
+        <AdjustY>0</AdjustY>
+        <Loop>None</Loop>
+        <LoopCount>0</LoopCount>
+        <ReturnTop>False</ReturnTop>
+      </SettingParam>
+      <Open>False</Open>
+      <FrameDatas>
+        <Item>
+          <Id>0692c446-7418-42c9-a3a7-49ac431a77e5</Id>
+          <PatternPos>
+            <X>0</X>
+            <Y>0</Y>
+          </PatternPos>
+          <X>0</X>
+          <Y>0</Y>
+          <Width>100</Width>
+          <Height>100</Height>
+          <Time>1</Time>
+          <Interpolation>Linear</Interpolation>
+          <SEId />
+          <OffsetX>0</OffsetX>
+          <OffsetY>0</OffsetY>
+          <Priority>0</Priority>
+          <CenterX>50</CenterX>
+          <CenterY>50</CenterY>
+          <ScaleX>1</ScaleX>
+          <ScaleY>1</ScaleY>
+          <AngleZ>0</AngleZ>
+          <Color>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+          </Color>
+          <UseHorzReverse>False</UseHorzReverse>
+          <UseVertReverse>False</UseVertReverse>
+        </Item>
+      </FrameDatas>
+      <ChildDatas />
+      <Memo />
+    </Item>
+    <Item>
+      <Id>0c2d7565-855c-48bd-9c4f-55ef6e4c7206</Id>
+      <Name>ON</Name>
+      <SettingParam>
+        <Id>9f413790-526a-435e-9752-abba81e4b69b</Id>
+        <Type>Box</Type>
+        <CompositeMode>Normal</CompositeMode>
+        <ImageId />
+        <DivideCount>
+          <Width>1</Width>
+          <Height>1</Height>
+        </DivideCount>
+        <SquareImage>False</SquareImage>
+        <RoundCorner>True</RoundCorner>
+        <RoundSize>16</RoundSize>
+        <TextId />
+        <FontId />
+        <FontSize>16</FontSize>
+        <AutoReturn>False</AutoReturn>
+        <ColumnSpace>0</ColumnSpace>
+        <LineSpace>0</LineSpace>
+        <PositionType>LeftTop</PositionType>
+        <AdjustX>0</AdjustX>
+        <AdjustY>0</AdjustY>
+        <Loop>None</Loop>
+        <LoopCount>0</LoopCount>
+        <ReturnTop>False</ReturnTop>
+      </SettingParam>
+      <Open>False</Open>
+      <FrameDatas>
+        <Item>
+          <Id>45f11f23-6afd-4300-8ca5-29730395dd6f</Id>
+          <PatternPos>
+            <X>0</X>
+            <Y>0</Y>
+          </PatternPos>
+          <X>0</X>
+          <Y>0</Y>
+          <Width>100</Width>
+          <Height>100</Height>
+          <Time>1</Time>
+          <Interpolation>Linear</Interpolation>
+          <SEId />
+          <OffsetX>0</OffsetX>
+          <OffsetY>0</OffsetY>
+          <Priority>0</Priority>
+          <CenterX>50</CenterX>
+          <CenterY>50</CenterY>
+          <ScaleX>1</ScaleX>
+          <ScaleY>1</ScaleY>
+          <AngleZ>0</AngleZ>
+          <Color>
+            <R>255</R>
+            <G>255</G>
+            <B>0</B>
+            <A>255</A>
+          </Color>
+          <UseHorzReverse>False</UseHorzReverse>
+          <UseVertReverse>False</UseVertReverse>
+        </Item>
+      </FrameDatas>
+      <ChildDatas />
+      <Memo />
+    </Item>
+    <Item>
+      <Id>85c4b97d-870d-4841-9dcb-e14d17c4a3e6</Id>
+      <Name>DISABLE</Name>
+      <SettingParam>
+        <Id>d2b9a31d-6852-4cc4-bdf4-49749c642813</Id>
+        <Type>Box</Type>
+        <CompositeMode>Normal</CompositeMode>
+        <ImageId />
+        <DivideCount>
+          <Width>1</Width>
+          <Height>1</Height>
+        </DivideCount>
+        <SquareImage>False</SquareImage>
+        <RoundCorner>True</RoundCorner>
+        <RoundSize>16</RoundSize>
+        <TextId />
+        <FontId />
+        <FontSize>16</FontSize>
+        <AutoReturn>False</AutoReturn>
+        <ColumnSpace>0</ColumnSpace>
+        <LineSpace>0</LineSpace>
+        <PositionType>LeftTop</PositionType>
+        <AdjustX>0</AdjustX>
+        <AdjustY>0</AdjustY>
+        <Loop>None</Loop>
+        <LoopCount>0</LoopCount>
+        <ReturnTop>False</ReturnTop>
+      </SettingParam>
+      <Open>False</Open>
+      <FrameDatas>
+        <Item>
+          <Id>7d971172-3a64-4b09-84db-2e2f0654845b</Id>
+          <PatternPos>
+            <X>0</X>
+            <Y>0</Y>
+          </PatternPos>
+          <X>0</X>
+          <Y>0</Y>
+          <Width>100</Width>
+          <Height>100</Height>
+          <Time>1</Time>
+          <Interpolation>Linear</Interpolation>
+          <SEId />
+          <OffsetX>0</OffsetX>
+          <OffsetY>0</OffsetY>
+          <Priority>0</Priority>
+          <CenterX>50</CenterX>
+          <CenterY>50</CenterY>
+          <ScaleX>1</ScaleX>
+          <ScaleY>1</ScaleY>
+          <AngleZ>0</AngleZ>
+          <Color>
+            <R>128</R>
+            <G>128</G>
+            <B>128</B>
+            <A>255</A>
+          </Color>
+          <UseHorzReverse>False</UseHorzReverse>
+          <UseVertReverse>False</UseVertReverse>
+        </Item>
+      </FrameDatas>
+      <ChildDatas />
+      <Memo />
+    </Item>
+  </Items>
+  <Memo />
+</Param>

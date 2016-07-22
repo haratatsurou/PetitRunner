@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>acef2f1c-abe6-4e21-b560-67b4dbb32174</Id>
+  <Name>Movie</Name>
+  <Open>False</Open>
+  <Items>
+    <Item>
+      <Id>0a65d4c8-fbe2-45d5-8225-ea9920edc90e</Id>
+      <Name>Screen</Name>
+      <SettingParam>
+        <Id>24b2eabc-a8a6-4630-9434-2125022933ce</Id>
+        <Type>Box</Type>
+        <CompositeMode>Normal</CompositeMode>
+        <ImageId />
+        <DivideCount>
+          <Width>1</Width>
+          <Height>1</Height>
+        </DivideCount>
+        <SquareImage>False</SquareImage>
+        <RoundCorner>True</RoundCorner>
+        <RoundSize>0</RoundSize>
+        <TextId />
+        <FontId />
+        <FontSize>16</FontSize>
+        <AutoReturn>False</AutoReturn>
+        <ColumnSpace>0</ColumnSpace>
+        <LineSpace>0</LineSpace>
+        <PositionType>LeftTop</PositionType>
+        <AdjustX>0</AdjustX>
+        <AdjustY>0</AdjustY>
+        <Loop>None</Loop>
+        <LoopCount>0</LoopCount>
+        <ReturnTop>False</ReturnTop>
+      </SettingParam>
+      <Open>False</Open>
+      <FrameDatas>
+        <Item>
+          <Id>5c02bc26-ed11-46ae-aeb4-535501527b08</Id>
+          <PatternPos>
+            <X>0</X>
+            <Y>0</Y>
+          </PatternPos>
+          <X>0</X>
+          <Y>0</Y>
+          <Width>160</Width>
+          <Height>90</Height>
+          <Time>1</Time>
+          <Interpolation>Linear</Interpolation>
+          <SEId />
+          <OffsetX>0</OffsetX>
+          <OffsetY>0</OffsetY>
+          <Priority>0</Priority>
+          <CenterX>80</CenterX>
+          <CenterY>45</CenterY>
+          <ScaleX>1</ScaleX>
+          <ScaleY>1</ScaleY>
+          <AngleZ>0</AngleZ>
+          <Color>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+          </Color>
+          <UseHorzReverse>False</UseHorzReverse>
+          <UseVertReverse>False</UseVertReverse>
+        </Item>
+      </FrameDatas>
+      <ChildDatas />
+      <Memo />
+    </Item>
+  </Items>
+  <Memo />
+</Param>

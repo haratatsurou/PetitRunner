@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Name>hoge</Name>
+  <CustomScreenType>True</CustomScreenType>
+  <ScreenSize>
+    <Width>960</Width>
+    <Height>640</Height>
+  </ScreenSize>
+  <FrameRateType>Frame30</FrameRateType>
+  <CustomFrameRate>60</CustomFrameRate>
+  <ExportSettingName />
+  <ProjectMemo>■このプロジェクトについて
+・概要を記載します
+
+■注意事項
+・注意点について記載します
+
+■ルール
+・遊び方を記載します
+
+■操作方法
+・操作方法を記載します
+
+■テクニック
+・技術的な情報を記載します
+
+■変更履歴
+この説明の変更履歴を残します</ProjectMemo>
+  <OpenResourceFolder>True</OpenResourceFolder>
+</Param>

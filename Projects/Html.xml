@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>f66eb7dc-8f31-4c59-9f53-70b6d8514b28</Id>
+  <Name>HTML</Name>
+  <Open>False</Open>
+  <Items>
+    <Item>
+      <Id>e76b185d-b06a-451c-aea8-49bc10711978</Id>
+      <Name>index.html</Name>
+      <SrcFileName>index.html</SrcFileName>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>9496373f-b6f5-4c38-99f6-b49949bd218d</Id>
+      <Name>default.css</Name>
+      <SrcFileName>default.css</SrcFileName>
+      <Memo />
+    </Item>
+  </Items>
+</Param>

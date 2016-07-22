@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>4ffca48b-3583-443e-bbcb-403bebf2d8f4</Id>
+  <Name>Button</Name>
+  <SettingParam>
+    <Id>047efdee-74e9-406a-b8f7-eeda6d3d4623</Id>
+    <BaseGadgetId>5720f7c9-0b42-41c3-a649-38342fb96b2b</BaseGadgetId>
+    <ScriptId />
+    <AnimationGroupId>0096c0d2-bac0-4363-8012-4d4a3fe512c3</AnimationGroupId>
+    <ActiveStart>True</ActiveStart>
+    <MarginLeft>0</MarginLeft>
+    <MarginTop>0</MarginTop>
+    <MarginRight>0</MarginRight>
+    <MarginBottom>0</MarginBottom>
+  </SettingParam>
+  <Memo>Sbt.ButtonGadget
+
+ボタンの機能を持つ GadgetTemplate です。</Memo>
+</Param>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>562e49d0-64df-4688-a65a-c47266da5f46</Id>
+  <Name>GadgetTemplate</Name>
+  <Open>True</Open>
+  <Items>
+    <Item>
+      <Name>Preset</Name>
+      <FileName>1833a3f9-273b-4992-816e-2e68f1b58f39</FileName>
+    </Item>
+    <Item>
+      <Name>_background</Name>
+      <FileName>ac910543-edac-400d-8fdc-e529be978ed4</FileName>
+    </Item>
+    <Item>
+      <Name>player</Name>
+      <FileName>4f9c9b69-e1e6-4d09-ba8a-1d75771158ee</FileName>
+    </Item>
+  </Items>
+</Param>

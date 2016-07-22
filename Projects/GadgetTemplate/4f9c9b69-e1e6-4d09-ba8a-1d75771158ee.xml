@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>4f9c9b69-e1e6-4d09-ba8a-1d75771158ee</Id>
+  <Name>player</Name>
+  <SettingParam>
+    <Id>e36953f3-f12f-4182-8ae7-0c916fe0779c</Id>
+    <BaseGadgetId>a473d190-27e7-4e84-ba30-38c98e879432</BaseGadgetId>
+    <ScriptId>f8766011-67e4-4f26-bf56-f30b9b965bec</ScriptId>
+    <AnimationGroupId>a26eb87e-aa38-443a-a8a4-d0bea49b72bc</AnimationGroupId>
+    <ActiveStart>True</ActiveStart>
+    <MarginLeft>0</MarginLeft>
+    <MarginTop>0</MarginTop>
+    <MarginRight>0</MarginRight>
+    <MarginBottom>0</MarginBottom>
+  </SettingParam>
+  <Memo />
+</Param>

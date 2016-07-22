@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>ac910543-edac-400d-8fdc-e529be978ed4</Id>
+  <Name>_background</Name>
+  <SettingParam>
+    <Id>f881c746-36bc-4c66-a661-0a37f8990266</Id>
+    <BaseGadgetId>a473d190-27e7-4e84-ba30-38c98e879432</BaseGadgetId>
+    <ScriptId>e02cc554-4b64-4471-9329-0752f5ef848f</ScriptId>
+    <AnimationGroupId>0eafbe3a-bf29-4c54-9631-5d4b357de32a</AnimationGroupId>
+    <ActiveStart>True</ActiveStart>
+    <MarginLeft>0</MarginLeft>
+    <MarginTop>0</MarginTop>
+    <MarginRight>0</MarginRight>
+    <MarginBottom>0</MarginBottom>
+  </SettingParam>
+  <Memo />
+</Param>

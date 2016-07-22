@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>1218182b-31de-40be-a410-674e61f8de91</Id>
+  <Name>DefaultFont</Name>
+  <FontType>Browser</FontType>
+  <FontName>sans-serif</FontName>
+  <FixedFont>True</FixedFont>
+  <SpaceWidth>0</SpaceWidth>
+  <DoubleSpaceWidth>0</DoubleSpaceWidth>
+  <FrameImage>False</FrameImage>
+  <TextArrangement> !"#$%&amp;'()*+,-./
+0123456789:;&lt;=&gt;?
+@ABCDEFGHIJKLMNO
+PQRSTUVWXYZ[\]^_
+`abcdefghijklmno
+pqrstuvwxyz{|}~</TextArrangement>
+  <Memo />
+</Param>
