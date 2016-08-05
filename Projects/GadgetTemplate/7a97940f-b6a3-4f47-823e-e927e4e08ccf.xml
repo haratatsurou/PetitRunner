@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>7a97940f-b6a3-4f47-823e-e927e4e08ccf</Id>
+  <Name>ground</Name>
+  <SettingParam>
+    <Id>ef8bdbdf-dd57-4bec-9f78-1ab540bc548a</Id>
+    <BaseGadgetId>a473d190-27e7-4e84-ba30-38c98e879432</BaseGadgetId>
+    <ScriptId>215ba7d2-779c-49c8-9b94-edbedfaa2973</ScriptId>
+    <AnimationGroupId>66a4cdaa-477c-4629-ba69-1728198e89e5</AnimationGroupId>
+    <ActiveStart>True</ActiveStart>
+    <MarginLeft>0</MarginLeft>
+    <MarginTop>0</MarginTop>
+    <MarginRight>0</MarginRight>
+    <MarginBottom>0</MarginBottom>
+  </SettingParam>
+  <Memo />
+</Param>
