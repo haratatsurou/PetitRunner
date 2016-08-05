@@ -36,5 +36,11 @@
       <SrcFileName>_background2.js</SrcFileName>
       <Memo />
     </Item>
+    <Item>
+      <Id>215ba7d2-779c-49c8-9b94-edbedfaa2973</Id>
+      <Name>ground</Name>
+      <SrcFileName>ground.js</SrcFileName>
+      <Memo />
+    </Item>
   </Items>
 </Param>

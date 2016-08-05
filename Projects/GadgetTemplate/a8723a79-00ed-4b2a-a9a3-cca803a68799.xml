@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>a8723a79-00ed-4b2a-a9a3-cca803a68799</Id>
+  <Name>ground2</Name>
+  <SettingParam>
+    <Id>5bb04a20-0e12-42e8-989f-78ff51ac1e88</Id>
+    <BaseGadgetId>a473d190-27e7-4e84-ba30-38c98e879432</BaseGadgetId>
+    <ScriptId />
+    <AnimationGroupId>5d163218-7c8b-40e8-b4ee-6cfbaed46e5c</AnimationGroupId>
+    <ActiveStart>True</ActiveStart>
+    <MarginLeft>0</MarginLeft>
+    <MarginTop>0</MarginTop>
+    <MarginRight>0</MarginRight>
+    <MarginBottom>0</MarginBottom>
+  </SettingParam>
+  <Memo />
+</Param>
