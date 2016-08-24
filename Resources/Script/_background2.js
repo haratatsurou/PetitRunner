@@ -31,10 +31,16 @@ _background2.prototype.doInitialize = function() {
 //
 // ### 毎フレームごとの処理 ###
 //
+var accelerator=0;
 _background2.prototype.doUpdate = function() {
 	// 継承元GadgetのdoUpdate()呼び出し
 	Sbt.Gadget.prototype.doUpdate.call( this );
-	this.location[0]-=5;
+	 accelerator=5;
+	 if(accelerator>=30){
+	 	accelerator=30;
+	 }
+    this.location[0] -= accelerator;
+  
 	if(this.location[0]<-557){
 		this.location[0]=2577;
 	}

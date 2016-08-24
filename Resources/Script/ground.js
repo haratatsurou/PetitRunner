@@ -21,20 +21,35 @@ var ground = function() {};
 //
 ground.prototype = new Sbt.Gadget();
 
+var speed=10;
+var size=150;
+
 //
 // ### 初期化処理 ###
 //
-ground.prototype.doInitialize = function() {};
+ground.prototype.doInitialize = function() {
+	if(this.canvas.createTile){
+		this.canvas.createTile(this);
+	}
+
+};
 
 //
 // ### 毎フレームごとの処理 ###
 //
+var time=0;
 ground.prototype.doUpdate = function() {
     // 継承元GadgetのdoUpdate()呼び出し
     Sbt.Gadget.prototype.doUpdate.call(this);
-    this.location[0] -= 6;
-    if (this.location[0] < -184) {
-        this.location[0] = 1150;
+    this.location[0] -= speed ; //7, 14, 28, 
+    
+  
+    if (this.location[0] <=-size) {
+    	//一番後ろに配置
+        this.location[0] = this.location[0]+this.width*7;
+    	
+        console.log(size%speed);
+        
     }
     // ※この下にプログラムを追加してください
 };

@@ -5,6 +5,20 @@
   <Open>True</Open>
   <Items>
     <Item>
+      <Id>8f912658-f6ef-493c-aa27-24c159f14ee1</Id>
+      <Name>bar</Name>
+      <SrcFileName>bar.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
       <Id>b8bcfb6c-a632-4674-8490-83175cdc67e5</Id>
       <Name>_background</Name>
       <SrcFileName>background.png</SrcFileName>
