@@ -25,6 +25,12 @@
       <Memo />
     </Item>
     <Item>
+      <Id>215ba7d2-779c-49c8-9b94-edbedfaa2973</Id>
+      <Name>ground</Name>
+      <SrcFileName>ground.js</SrcFileName>
+      <Memo />
+    </Item>
+    <Item>
       <Id>f8766011-67e4-4f26-bf56-f30b9b965bec</Id>
       <Name>player</Name>
       <SrcFileName>player.js</SrcFileName>
@@ -37,9 +43,27 @@
       <Memo />
     </Item>
     <Item>
-      <Id>215ba7d2-779c-49c8-9b94-edbedfaa2973</Id>
-      <Name>ground</Name>
-      <SrcFileName>ground.js</SrcFileName>
+      <Id>66c8b4c4-e359-4b1e-8883-02054b75ef82</Id>
+      <Name>bar2</Name>
+      <SrcFileName>bar2.js</SrcFileName>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>f0abaf4c-c875-44b9-a05f-bd2bc973f2ac</Id>
+      <Name>Score</Name>
+      <SrcFileName>Score.js</SrcFileName>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>fb8cf221-741a-41d9-b0ce-dec7b803732a</Id>
+      <Name>Start</Name>
+      <SrcFileName>Start.js</SrcFileName>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>f36a7b93-0dec-4693-b8a3-2842417d8dbb</Id>
+      <Name>Result</Name>
+      <SrcFileName>Result.js</SrcFileName>
       <Memo />
     </Item>
   </Items>

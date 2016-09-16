@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>65f38615-52f3-41ff-bbb1-aa42bfbd327f</Id>
+  <Name>toge</Name>
+  <SettingParam>
+    <Id>52f9b3dc-d730-499f-8e88-2a668ae83ffb</Id>
+    <BaseGadgetId>a473d190-27e7-4e84-ba30-38c98e879432</BaseGadgetId>
+    <ScriptId />
+    <AnimationGroupId>53173d6a-2546-4cc8-8948-daf5308f3d68</AnimationGroupId>
+    <ActiveStart>True</ActiveStart>
+    <MarginLeft>0</MarginLeft>
+    <MarginTop>0</MarginTop>
+    <MarginRight>0</MarginRight>
+    <MarginBottom>0</MarginBottom>
+  </SettingParam>
+  <Memo />
+</Param>

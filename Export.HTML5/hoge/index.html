@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		
+		<meta charset="UTF-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" /><meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title>hoge</title>
+		<script src="./common/sbt.1.2.8.js"></script>
+		<script src="./Script/lib.js"></script>
+		<script src="./Script/Canvas.js"></script>
+		<script src="./Script/ground.js"></script>
+		<script src="./Script/player.js"></script>
+		<script src="./Script/_background2.js"></script>
+		<script src="./Script/bar2.js"></script>
+		<script src="./Script/Score.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/default.css" media="all">
+		<link rel="stylesheet" type="text/css" href="./css/font.css" media="all">
+
+		<script type="text/javascript">
+			var app;
+
+			function init() {
+				app = new Sbt.App("screen", 15);
+
+				app.start("./", "sbtdata.json", update);
+			}
+			function update() {
+				app.update();
+			}
+		</script>
+	</head>
+	<body onload="init()" style="background: #333333 url( ./Image/bgtile.png ) repeat; margin: 0; padding: 0;">
+		<canvas id="screen" width="0" height="0" style="background-color: black;"></canvas>
+		<!-- スケーリングしない場合は、上の行を下の行に変更してください -->
+		<!-- <canvas id="screen" width="960" height="640" style="background-color: black;"></canvas> -->
+
+	</body>
+</html>

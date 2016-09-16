@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>a2dc676a-6924-4d88-8372-a9b5099d2c75</Id>
+  <Name>title</Name>
+  <Open>False</Open>
+  <Items>
+    <Item>
+      <Id>ca53eb2e-68f6-4e5c-abff-a75d13ab98d2</Id>
+      <Name>title</Name>
+      <SettingParam>
+        <Id>bd263d76-bcb7-4c0b-a774-8693399bf44f</Id>
+        <Type>Text</Type>
+        <CompositeMode>Normal</CompositeMode>
+        <ImageId />
+        <DivideCount>
+          <Width>1</Width>
+          <Height>1</Height>
+        </DivideCount>
+        <SquareImage>False</SquareImage>
+        <RoundCorner>False</RoundCorner>
+        <RoundSize>1</RoundSize>
+        <TextId>2a33c195-92fc-44a4-a179-a003348a750c</TextId>
+        <FontId>1218182b-31de-40be-a410-674e61f8de91</FontId>
+        <FontSize>16</FontSize>
+        <AutoReturn>False</AutoReturn>
+        <ColumnSpace>0</ColumnSpace>
+        <LineSpace>0</LineSpace>
+        <PositionType>LeftTop</PositionType>
+        <AdjustX>0</AdjustX>
+        <AdjustY>0</AdjustY>
+        <Loop>Infinity</Loop>
+        <LoopCount>0</LoopCount>
+        <ReturnTop>False</ReturnTop>
+      </SettingParam>
+      <Open>False</Open>
+      <FrameDatas>
+        <Item>
+          <Id>83f5489f-a417-4c3d-bb4a-cf3c0ec3ba2a</Id>
+          <PatternPos>
+            <X>0</X>
+            <Y>0</Y>
+          </PatternPos>
+          <X>0</X>
+          <Y>0</Y>
+          <Width>136</Width>
+          <Height>16</Height>
+          <Time>1</Time>
+          <Interpolation>Linear</Interpolation>
+          <SEId />
+          <OffsetX>0</OffsetX>
+          <OffsetY>0</OffsetY>
+          <Priority>0</Priority>
+          <CenterX>68</CenterX>
+          <CenterY>8</CenterY>
+          <ScaleX>1</ScaleX>
+          <ScaleY>1</ScaleY>
+          <AngleZ>0</AngleZ>
+          <Color>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+          </Color>
+          <UseHorzReverse>False</UseHorzReverse>
+          <UseVertReverse>False</UseVertReverse>
+        </Item>
+      </FrameDatas>
+      <ChildDatas />
+      <Memo />
+    </Item>
+  </Items>
+  <Memo />
+</Param>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>c51423fe-b6ad-4036-af02-19115696ce50</Id>
+  <Name>Result</Name>
+  <CanvasSetting>
+    <Id>31330ee3-f852-4f32-ae44-f55e14eb6b64</Id>
+    <ScriptId>f36a7b93-0dec-4693-b8a3-2842417d8dbb</ScriptId>
+    <ScreenCount>
+      <Width>1</Width>
+      <Height>1</Height>
+    </ScreenCount>
+    <GridSizeX>256</GridSizeX>
+    <GridSizeY>256</GridSizeY>
+    <GridDivideCount>8</GridDivideCount>
+    <FadeColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <A>255</A>
+    </FadeColor>
+    <FadeTime>0</FadeTime>
+    <FadeOutTime>0</FadeOutTime>
+    <SystemCanvasId />
+    <View>True</View>
+  </CanvasSetting>
+  <LayerSetting>
+    <Id>9ea8887f-9479-46ef-a3d6-9fbc9d7852c3</Id>
+    <Name />
+    <WallPaperId />
+    <WallPaperArrangeType>Center</WallPaperArrangeType>
+    <BGColor>
+      <R>96</R>
+      <G>96</G>
+      <B>128</B>
+      <A>255</A>
+    </BGColor>
+    <View>True</View>
+  </LayerSetting>
+  <LayoutDataList>
+    <Item>
+      <Type>Layer</Type>
+      <Id>ea0960aa-c76b-450e-841c-f861fc064813</Id>
+      <Name>Layer1</Name>
+      <View>True</View>
+      <Priority>0</Priority>
+      <Open>True</Open>
+      <LocationX>0</LocationX>
+      <LocationY>0</LocationY>
+      <LocationZ>0</LocationZ>
+      <Width>0</Width>
+      <Height>0</Height>
+      <Clipping>False</Clipping>
+      <LayoutDataList />
+    </Item>
+    <Item>
+      <Type>Layer</Type>
+      <Id>d0fc1ae4-69a4-40a9-a3f9-9a8535340eaf</Id>
+      <Name>Layer2</Name>
+      <View>True</View>
+      <Priority>0</Priority>
+      <Open>True</Open>
+      <LocationX>0</LocationX>
+      <LocationY>0</LocationY>
+      <LocationZ>0</LocationZ>
+      <Width>0</Width>
+      <Height>0</Height>
+      <Clipping>False</Clipping>
+      <LayoutDataList />
+    </Item>
+    <Item>
+      <Type>Layer</Type>
+      <Id>b669819e-ef2e-458e-8c06-d3058c81d269</Id>
+      <Name>Layer3</Name>
+      <View>True</View>
+      <Priority>0</Priority>
+      <Open>True</Open>
+      <LocationX>0</LocationX>
+      <LocationY>0</LocationY>
+      <LocationZ>0</LocationZ>
+      <Width>0</Width>
+      <Height>0</Height>
+      <Clipping>False</Clipping>
+      <LayoutDataList />
+    </Item>
+    <Item>
+      <Type>Layer</Type>
+      <Id>172531e3-dc22-4c63-be9a-78951d898ccb</Id>
+      <Name>Layer4</Name>
+      <View>True</View>
+      <Priority>0</Priority>
+      <Open>True</Open>
+      <LocationX>0</LocationX>
+      <LocationY>0</LocationY>
+      <LocationZ>0</LocationZ>
+      <Width>0</Width>
+      <Height>0</Height>
+      <Clipping>False</Clipping>
+      <LayoutDataList />
+    </Item>
+  </LayoutDataList>
+  <Memo />
+</Param>

@@ -7,8 +7,8 @@
     <Height>640</Height>
   </ScreenSize>
   <FrameRateType>Frame30</FrameRateType>
-  <CustomFrameRate>60</CustomFrameRate>
-  <ExportSettingName />
+  <CustomFrameRate>10</CustomFrameRate>
+  <ExportSettingName>設定</ExportSettingName>
   <ProjectMemo>■このプロジェクトについて
 ・概要を記載します
 

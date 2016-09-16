@@ -2,7 +2,7 @@
 <Param>
   <Id>dcc24950-931f-431e-84b5-db18a2f186ef</Id>
   <Name>Font</Name>
-  <Open>False</Open>
+  <Open>True</Open>
   <Items>
     <Item>
       <Name>DefaultFont</Name>

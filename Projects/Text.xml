@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>34f196e5-eb43-4890-9a28-bb15435f0ec1</Id>
+  <Name>Text</Name>
+  <Open>True</Open>
+  <Items>
+    <Item>
+      <Name>score</Name>
+      <FileName>29a87211-89e4-42e3-aa94-c467bda5e83e</FileName>
+    </Item>
+    <Item>
+      <Name>title</Name>
+      <FileName>2a33c195-92fc-44a4-a179-a003348a750c</FileName>
+    </Item>
+  </Items>
+</Param>

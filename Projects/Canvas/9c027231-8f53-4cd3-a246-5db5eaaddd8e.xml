@@ -20,7 +20,7 @@
     </FadeColor>
     <FadeTime>0</FadeTime>
     <FadeOutTime>0</FadeOutTime>
-    <SystemCanvasId />
+    <SystemCanvasId>f976d536-567e-4f62-ac55-ffac80c536be</SystemCanvasId>
     <View>True</View>
   </CanvasSetting>
   <LayerSetting>
@@ -322,6 +322,130 @@
     </Item>
     <Item>
       <Type>Layer</Type>
+      <Id>6fddd227-453e-40e2-86b5-294467645245</Id>
+      <Name>Layer5</Name>
+      <View>True</View>
+      <Priority>0</Priority>
+      <Open>True</Open>
+      <LocationX>0</LocationX>
+      <LocationY>0</LocationY>
+      <LocationZ>0</LocationZ>
+      <Width>0</Width>
+      <Height>0</Height>
+      <Clipping>False</Clipping>
+      <LayoutDataList>
+        <Item>
+          <Type>Character</Type>
+          <Id>5b586c30-9c5e-4ef1-ab4f-9216a36ee3eb</Id>
+          <Name>toge2</Name>
+          <View>True</View>
+          <BasicParam>
+            <Id>ff41a009-1043-4cdf-acf9-62380bdf345e</Id>
+            <LocationX>1100</LocationX>
+            <LocationY>252</LocationY>
+            <Priority>0</Priority>
+            <AnimationId>80486e93-57bd-417d-9f24-aeb764c5070e</AnimationId>
+          </BasicParam>
+          <ColorParam>
+            <Id>f722418b-79fc-489b-a988-b255a3a15cff</Id>
+            <Color>
+              <R>255</R>
+              <G>255</G>
+              <B>255</B>
+              <A>255</A>
+            </Color>
+          </ColorParam>
+          <AngleParam>
+            <Id>6411d281-a64c-4fb4-9821-4e4daa80cea0</Id>
+            <AngleX>0</AngleX>
+            <AngleY>0</AngleY>
+            <AngleZ>0</AngleZ>
+          </AngleParam>
+          <ScaleParam>
+            <Id>27aebc65-08d6-4d76-84f9-cd1159a82098</Id>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </ScaleParam>
+          <ObjectId>43967a35-0a14-4e9c-9b9b-8896a878a1a9</ObjectId>
+          <AnimationGroupId>aa754742-3a91-4f84-83c7-8fdb22d01340</AnimationGroupId>
+          <Memo />
+        </Item>
+        <Item>
+          <Type>Character</Type>
+          <Id>bd236f30-9cfb-4c19-9de6-d9116c494721</Id>
+          <Name>togeLong4</Name>
+          <View>True</View>
+          <BasicParam>
+            <Id>e7122c81-0573-4550-a45f-2a34f7e62ec7</Id>
+            <LocationX>1171</LocationX>
+            <LocationY>225</LocationY>
+            <Priority>0</Priority>
+            <AnimationId>4c98119b-48b5-4bdd-b4f5-0c3587b25de9</AnimationId>
+          </BasicParam>
+          <ColorParam>
+            <Id>cf348f6c-91d5-4214-a5df-0a75cea64bcd</Id>
+            <Color>
+              <R>255</R>
+              <G>255</G>
+              <B>255</B>
+              <A>255</A>
+            </Color>
+          </ColorParam>
+          <AngleParam>
+            <Id>11f9d420-79e2-4493-8a30-0bf40c5f54ad</Id>
+            <AngleX>0</AngleX>
+            <AngleY>0</AngleY>
+            <AngleZ>0</AngleZ>
+          </AngleParam>
+          <ScaleParam>
+            <Id>e039daca-d0d3-420f-839a-bdde7905ecb0</Id>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </ScaleParam>
+          <ObjectId>83d7c988-5055-436f-8356-4c269cea5b72</ObjectId>
+          <AnimationGroupId>1692960a-e3b8-4eeb-ad75-1a8eff6c37ef</AnimationGroupId>
+          <Memo />
+        </Item>
+        <Item>
+          <Type>Character</Type>
+          <Id>c7286a30-f23f-440f-b24c-d681cf257601</Id>
+          <Name>togetoge2</Name>
+          <View>True</View>
+          <BasicParam>
+            <Id>0e7fd259-fa46-4ceb-8e93-a961274af43b</Id>
+            <LocationX>1226</LocationX>
+            <LocationY>263</LocationY>
+            <Priority>0</Priority>
+            <AnimationId>c9762435-f43d-4c46-8de6-9fb9d4f53528</AnimationId>
+          </BasicParam>
+          <ColorParam>
+            <Id>f09d1571-8604-41ae-bce4-1bd284745e81</Id>
+            <Color>
+              <R>255</R>
+              <G>255</G>
+              <B>255</B>
+              <A>255</A>
+            </Color>
+          </ColorParam>
+          <AngleParam>
+            <Id>d43fb889-bfa6-4a2e-825c-93952a09966f</Id>
+            <AngleX>0</AngleX>
+            <AngleY>0</AngleY>
+            <AngleZ>0</AngleZ>
+          </AngleParam>
+          <ScaleParam>
+            <Id>98f498a3-5975-4d93-843f-1fa3063c6a74</Id>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </ScaleParam>
+          <ObjectId>03b4bc5a-e8ce-4a86-b862-1a28eb164245</ObjectId>
+          <AnimationGroupId>f3894693-5b02-41fb-a9ba-7a085142bca6</AnimationGroupId>
+          <Memo />
+        </Item>
+      </LayoutDataList>
+    </Item>
+    <Item>
+      <Type>Layer</Type>
       <Id>cc860513-4dc4-4155-a7a9-aacaf8576d08</Id>
       <Name>Layer2</Name>
       <View>True</View>
@@ -374,58 +498,6 @@
     </Item>
     <Item>
       <Type>Layer</Type>
-      <Id>6fddd227-453e-40e2-86b5-294467645245</Id>
-      <Name>Layer5</Name>
-      <View>True</View>
-      <Priority>0</Priority>
-      <Open>True</Open>
-      <LocationX>0</LocationX>
-      <LocationY>0</LocationY>
-      <LocationZ>0</LocationZ>
-      <Width>0</Width>
-      <Height>0</Height>
-      <Clipping>False</Clipping>
-      <LayoutDataList>
-        <Item>
-          <Type>Character</Type>
-          <Id>92d81bb2-c1b3-4980-bc6c-5eb4919423d5</Id>
-          <Name>bar2</Name>
-          <View>True</View>
-          <BasicParam>
-            <Id>e97f365a-b595-4b65-a0cb-4ad5c6a072b3</Id>
-            <LocationX>852</LocationX>
-            <LocationY>628</LocationY>
-            <Priority>0</Priority>
-            <AnimationId>ce7ab30f-6b5a-4135-8f47-064ae2ec7b66</AnimationId>
-          </BasicParam>
-          <ColorParam>
-            <Id>f793110c-6200-4aaf-9115-1ee6addec4b6</Id>
-            <Color>
-              <R>255</R>
-              <G>255</G>
-              <B>255</B>
-              <A>255</A>
-            </Color>
-          </ColorParam>
-          <AngleParam>
-            <Id>9742fd83-6678-429f-84ff-0e99986d21dc</Id>
-            <AngleX>0</AngleX>
-            <AngleY>0</AngleY>
-            <AngleZ>0</AngleZ>
-          </AngleParam>
-          <ScaleParam>
-            <Id>7891f03e-dc2c-4ee8-9e3e-d7115473d275</Id>
-            <ScaleX>6.243866</ScaleX>
-            <ScaleY>8.914931</ScaleY>
-          </ScaleParam>
-          <ObjectId>f2c6585a-3fa3-48f9-9a1e-2b713991c09a</ObjectId>
-          <AnimationGroupId>5e8741ef-1ff7-4256-b570-5ec202657ba9</AnimationGroupId>
-          <Memo />
-        </Item>
-      </LayoutDataList>
-    </Item>
-    <Item>
-      <Type>Layer</Type>
       <Id>2031b1cd-eeea-4baf-9e4d-0c3dfe2e858d</Id>
       <Name>Layer4</Name>
       <View>True</View>
@@ -445,7 +517,7 @@
           <View>True</View>
           <BasicParam>
             <Id>b922b9b5-66e2-48b3-ac37-20ace47d4551</Id>
-            <LocationX>535</LocationX>
+            <LocationX>0</LocationX>
             <LocationY>304</LocationY>
             <Priority>0</Priority>
             <AnimationId>4d18e3b8-9778-44cc-bfd2-381d933c0d84</AnimationId>
@@ -476,12 +548,84 @@
         </Item>
         <Item>
           <Type>Character</Type>
-          <Id>1ab59117-824d-4a27-be92-10ca66dd896e</Id>
+          <Id>df4266ad-c2c2-45a8-8449-26576cd9eca3</Id>
+          <Name>_background3</Name>
+          <View>True</View>
+          <BasicParam>
+            <Id>9c3920ec-8705-4bbc-9ddd-97fc4e33a415</Id>
+            <LocationX>1075</LocationX>
+            <LocationY>304</LocationY>
+            <Priority>0</Priority>
+            <AnimationId>4d18e3b8-9778-44cc-bfd2-381d933c0d84</AnimationId>
+          </BasicParam>
+          <ColorParam>
+            <Id>705f0e65-8f9f-49eb-b628-9bce501838f2</Id>
+            <Color>
+              <R>255</R>
+              <G>255</G>
+              <B>255</B>
+              <A>255</A>
+            </Color>
+          </ColorParam>
+          <AngleParam>
+            <Id>ec354cfe-0c63-4e72-9a6a-8eef0c5e4010</Id>
+            <AngleX>0</AngleX>
+            <AngleY>0</AngleY>
+            <AngleZ>0</AngleZ>
+          </AngleParam>
+          <ScaleParam>
+            <Id>c5647fe8-0a53-4762-b3d4-4931a36f8f73</Id>
+            <ScaleX>1.45912</ScaleX>
+            <ScaleY>1.36693</ScaleY>
+          </ScaleParam>
+          <ObjectId>eafabe9e-3cf5-4a89-ab27-d41aac22169c</ObjectId>
+          <AnimationGroupId>fdb63e2a-a15a-409d-b375-63be1add88e9</AnimationGroupId>
+          <Memo />
+        </Item>
+        <Item>
+          <Type>Character</Type>
+          <Id>858311de-212b-4a2d-82e8-3367f0e27f26</Id>
           <Name>_background2</Name>
           <View>True</View>
           <BasicParam>
+            <Id>28b06a43-09d0-4dea-83d5-2dd2448379f4</Id>
+            <LocationX>1075</LocationX>
+            <LocationY>304</LocationY>
+            <Priority>0</Priority>
+            <AnimationId>4d18e3b8-9778-44cc-bfd2-381d933c0d84</AnimationId>
+          </BasicParam>
+          <ColorParam>
+            <Id>536eae53-e2ee-4a08-acf9-d802f18ef1db</Id>
+            <Color>
+              <R>255</R>
+              <G>255</G>
+              <B>255</B>
+              <A>255</A>
+            </Color>
+          </ColorParam>
+          <AngleParam>
+            <Id>5be9f660-9222-458b-80dc-42c6f174bc44</Id>
+            <AngleX>0</AngleX>
+            <AngleY>0</AngleY>
+            <AngleZ>0</AngleZ>
+          </AngleParam>
+          <ScaleParam>
+            <Id>0b55aecf-6b8f-4396-abe2-c8000c6d926d</Id>
+            <ScaleX>1.45912</ScaleX>
+            <ScaleY>1.36693</ScaleY>
+          </ScaleParam>
+          <ObjectId>eafabe9e-3cf5-4a89-ab27-d41aac22169c</ObjectId>
+          <AnimationGroupId>fdb63e2a-a15a-409d-b375-63be1add88e9</AnimationGroupId>
+          <Memo />
+        </Item>
+        <Item>
+          <Type>Character</Type>
+          <Id>1ab59117-824d-4a27-be92-10ca66dd896e</Id>
+          <Name>_background4</Name>
+          <View>True</View>
+          <BasicParam>
             <Id>2802ea64-bca2-4fa8-bc73-94562f89a0e4</Id>
-            <LocationX>1606</LocationX>
+            <LocationX>1075</LocationX>
             <LocationY>304</LocationY>
             <Priority>0</Priority>
             <AnimationId>4d18e3b8-9778-44cc-bfd2-381d933c0d84</AnimationId>
@@ -513,11 +657,11 @@
         <Item>
           <Type>Character</Type>
           <Id>e2fb21fb-4714-4649-8d76-6aad1a55435c</Id>
-          <Name>_background3</Name>
+          <Name>_background5</Name>
           <View>True</View>
           <BasicParam>
             <Id>1c6f150f-16e3-47b0-bed5-04c2c57fc213</Id>
-            <LocationX>2677</LocationX>
+            <LocationX>2150</LocationX>
             <LocationY>304</LocationY>
             <Priority>0</Priority>
             <AnimationId>4d18e3b8-9778-44cc-bfd2-381d933c0d84</AnimationId>

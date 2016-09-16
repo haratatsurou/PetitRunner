@@ -21,8 +21,8 @@ var ground = function() {};
 //
 ground.prototype = new Sbt.Gadget();
 
-var speed=10;
-var size=150;
+var speed;
+var pos; 
 
 //
 // ### 初期化処理 ###
@@ -31,26 +31,27 @@ ground.prototype.doInitialize = function() {
 	if(this.canvas.createTile){
 		this.canvas.createTile(this);
 	}
-
+	
 };
 
 //
 // ### 毎フレームごとの処理 ###
-//
-var time=0;
+
 ground.prototype.doUpdate = function() {
     // 継承元GadgetのdoUpdate()呼び出し
     Sbt.Gadget.prototype.doUpdate.call(this);
-    this.location[0] -= speed ; //7, 14, 28, 
+	speed=Sbt.global.speed;
+    pos=Sbt.global.pos;
     
-  
-    if (this.location[0] <=-size) {
+    this.location[0] -= speed ; 
+    
+    if (this.location[0] <=-pos) {
     	//一番後ろに配置
         this.location[0] = this.location[0]+this.width*7;
-    	
-        console.log(size%speed);
+        Sbt.global.score++;
         
     }
+    Sbt.global.barpos=this.location[0] ;
     // ※この下にプログラムを追加してください
 };
 

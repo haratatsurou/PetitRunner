@@ -5,6 +5,48 @@
   <Open>True</Open>
   <Items>
     <Item>
+      <Id>75fb9343-264b-45bc-b647-4e7e42bb8faa</Id>
+      <Name>togetoge</Name>
+      <SrcFileName>togetoge.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>fe9f69f9-4ae1-4fef-85e2-6ab24077135c</Id>
+      <Name>togeLong</Name>
+      <SrcFileName>togeLong.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>bda507e2-a040-434a-a832-c30904214805</Id>
+      <Name>image</Name>
+      <SrcFileName>image.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
       <Id>8f912658-f6ef-493c-aa27-24c159f14ee1</Id>
       <Name>bar</Name>
       <SrcFileName>bar.png</SrcFileName>
@@ -61,6 +103,20 @@
       <Memo />
     </Item>
     <Item>
+      <Id>be14e200-a26a-4672-9012-95755df07de2</Id>
+      <Name>assist</Name>
+      <SrcFileName>assist.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
       <Id>0337a70a-b064-4a4e-9981-e7f181ad8dee</Id>
       <Name>thumbnail</Name>
       <SrcFileName>thumbnail.png</SrcFileName>
@@ -92,6 +148,20 @@
       <Id>6db7627b-654b-46c4-a129-86746a01a40b</Id>
       <Name>loading</Name>
       <SrcFileName>loading.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
+      <Id>196bea85-7be4-4bdd-b308-d5fe2910b85f</Id>
+      <Name>toge</Name>
+      <SrcFileName>toge.png</SrcFileName>
       <DefaultDivideSize>
         <Width>1</Width>
         <Height>1</Height>

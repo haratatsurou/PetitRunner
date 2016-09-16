@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>595bb328-4eee-4eaa-8550-bce91c18d05a</Id>
+  <Name>score</Name>
+  <Open>False</Open>
+  <Items>
+    <Item>
+      <Id>5c79fb82-945d-42c5-9afb-e86dff2ca739</Id>
+      <Name>score</Name>
+      <SettingParam>
+        <Id>f68a955e-1b06-4a5a-a832-c0ab9b660f16</Id>
+        <Type>Text</Type>
+        <CompositeMode>Normal</CompositeMode>
+        <ImageId />
+        <DivideCount>
+          <Width>1</Width>
+          <Height>1</Height>
+        </DivideCount>
+        <SquareImage>False</SquareImage>
+        <RoundCorner>False</RoundCorner>
+        <RoundSize>1</RoundSize>
+        <TextId>29a87211-89e4-42e3-aa94-c467bda5e83e</TextId>
+        <FontId>1218182b-31de-40be-a410-674e61f8de91</FontId>
+        <FontSize>16</FontSize>
+        <AutoReturn>False</AutoReturn>
+        <ColumnSpace>0</ColumnSpace>
+        <LineSpace>0</LineSpace>
+        <PositionType>LeftTop</PositionType>
+        <AdjustX>0</AdjustX>
+        <AdjustY>0</AdjustY>
+        <Loop>Infinity</Loop>
+        <LoopCount>0</LoopCount>
+        <ReturnTop>False</ReturnTop>
+      </SettingParam>
+      <Open>False</Open>
+      <FrameDatas>
+        <Item>
+          <Id>a36ca272-4e97-49ab-82c6-9129fbf454da</Id>
+          <PatternPos>
+            <X>0</X>
+            <Y>0</Y>
+          </PatternPos>
+          <X>0</X>
+          <Y>0</Y>
+          <Width>63</Width>
+          <Height>16</Height>
+          <Time>1</Time>
+          <Interpolation>Linear</Interpolation>
+          <SEId />
+          <OffsetX>0</OffsetX>
+          <OffsetY>0</OffsetY>
+          <Priority>0</Priority>
+          <CenterX>31</CenterX>
+          <CenterY>8</CenterY>
+          <ScaleX>1</ScaleX>
+          <ScaleY>1</ScaleY>
+          <AngleZ>0</AngleZ>
+          <Color>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+          </Color>
+          <UseHorzReverse>False</UseHorzReverse>
+          <UseVertReverse>False</UseVertReverse>
+        </Item>
+      </FrameDatas>
+      <ChildDatas />
+      <Memo />
+    </Item>
+  </Items>
+  <Memo />
+</Param>

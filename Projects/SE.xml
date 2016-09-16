@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>c7519f84-6d25-42ae-b21c-4f0b365190ec</Id>
+  <Name>SE</Name>
+  <Open>True</Open>
+  <Items>
+    <Item>
+      <Id>afcf1a74-67fa-4cff-929c-18b078dfb7df</Id>
+      <Name>jump</Name>
+      <SrcFileName>jump.mp3</SrcFileName>
+      <Volume>1</Volume>
+      <Loop>Off</Loop>
+      <Memo />
+    </Item>
+  </Items>
+</Param>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>b71ad52d-a1f1-47b1-ad4e-fc0bf1d350ff</Id>
+  <Name>assist</Name>
+  <SettingParam>
+    <Id>1096b944-1217-4cfe-846f-711d028a8b5e</Id>
+    <BaseGadgetId>a473d190-27e7-4e84-ba30-38c98e879432</BaseGadgetId>
+    <ScriptId />
+    <AnimationGroupId>a4c0c054-25ae-40ae-9796-541cd3de1169</AnimationGroupId>
+    <ActiveStart>True</ActiveStart>
+    <MarginLeft>0</MarginLeft>
+    <MarginTop>0</MarginTop>
+    <MarginRight>0</MarginRight>
+    <MarginBottom>0</MarginBottom>
+  </SettingParam>
+  <Memo />
+</Param>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>51fce14c-14ea-4eaa-a303-7ece56ac5aeb</Id>
+  <Name>togeLong3</Name>
+  <Open>False</Open>
+  <Items>
+    <Item>
+      <Id>36b64a9b-4916-4c83-ae64-4877ca0e290d</Id>
+      <Name>Animation</Name>
+      <SettingParam>
+        <Id>0a126a39-92bf-4b94-8dbc-6c9191962d6c</Id>
+        <Type>Image</Type>
+        <CompositeMode>Normal</CompositeMode>
+        <ImageId>fe9f69f9-4ae1-4fef-85e2-6ab24077135c</ImageId>
+        <DivideCount>
+          <Width>1</Width>
+          <Height>1</Height>
+        </DivideCount>
+        <SquareImage>False</SquareImage>
+        <RoundCorner>False</RoundCorner>
+        <RoundSize>1</RoundSize>
+        <TextId />
+        <FontId />
+        <FontSize>16</FontSize>
+        <AutoReturn>False</AutoReturn>
+        <ColumnSpace>0</ColumnSpace>
+        <LineSpace>0</LineSpace>
+        <PositionType>LeftTop</PositionType>
+        <AdjustX>0</AdjustX>
+        <AdjustY>0</AdjustY>
+        <Loop>Infinity</Loop>
+        <LoopCount>0</LoopCount>
+        <ReturnTop>False</ReturnTop>
+      </SettingParam>
+      <Open>False</Open>
+      <FrameDatas>
+        <Item>
+          <Id>eeb43971-1a80-4e61-800b-b0dcd43fd290</Id>
+          <PatternPos>
+            <X>0</X>
+            <Y>0</Y>
+          </PatternPos>
+          <Time>1</Time>
+          <Interpolation>Linear</Interpolation>
+          <SEId />
+          <OffsetX>0</OffsetX>
+          <OffsetY>0</OffsetY>
+          <Priority>0</Priority>
+          <CenterX>25</CenterX>
+          <CenterY>57</CenterY>
+          <ScaleX>1</ScaleX>
+          <ScaleY>1</ScaleY>
+          <AngleZ>0</AngleZ>
+          <Color>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+          </Color>
+          <UseHorzReverse>False</UseHorzReverse>
+          <UseVertReverse>False</UseVertReverse>
+        </Item>
+      </FrameDatas>
+      <ChildDatas />
+      <Memo />
+    </Item>
+  </Items>
+  <Memo />
+</Param>

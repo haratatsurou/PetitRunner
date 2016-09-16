@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>03b4bc5a-e8ce-4a86-b862-1a28eb164245</Id>
+  <Name>togetoge2</Name>
+  <SettingParam>
+    <Id>181262b5-0f04-48b8-9cec-06b78e22118f</Id>
+    <BaseGadgetId>a473d190-27e7-4e84-ba30-38c98e879432</BaseGadgetId>
+    <ScriptId>66c8b4c4-e359-4b1e-8883-02054b75ef82</ScriptId>
+    <AnimationGroupId>f3894693-5b02-41fb-a9ba-7a085142bca6</AnimationGroupId>
+    <ActiveStart>True</ActiveStart>
+    <MarginLeft>0</MarginLeft>
+    <MarginTop>0</MarginTop>
+    <MarginRight>0</MarginRight>
+    <MarginBottom>0</MarginBottom>
+  </SettingParam>
+  <Memo />
+</Param>

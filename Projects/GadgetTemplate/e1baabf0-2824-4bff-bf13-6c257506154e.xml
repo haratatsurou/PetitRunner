@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>e1baabf0-2824-4bff-bf13-6c257506154e</Id>
+  <Name>togeLong</Name>
+  <SettingParam>
+    <Id>569922ff-7c7f-4979-b65d-f1da12430e98</Id>
+    <BaseGadgetId>a473d190-27e7-4e84-ba30-38c98e879432</BaseGadgetId>
+    <ScriptId />
+    <AnimationGroupId>0052d9ae-3ac8-4214-9c6a-2095eeede3bd</AnimationGroupId>
+    <ActiveStart>True</ActiveStart>
+    <MarginLeft>0</MarginLeft>
+    <MarginTop>0</MarginTop>
+    <MarginRight>0</MarginRight>
+    <MarginBottom>0</MarginBottom>
+  </SettingParam>
+  <Memo />
+</Param>

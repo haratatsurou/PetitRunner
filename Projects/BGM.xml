@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>ab7252e0-002f-4ed3-9a62-bf41b50dfb82</Id>
+  <Name>BGM</Name>
+  <Open>True</Open>
+  <Items>
+    <Item>
+      <Id>a75be5f2-f4b1-47d5-a520-0e4cbc9b8661</Id>
+      <Name>bgm</Name>
+      <SrcFileName>bgm.mp3</SrcFileName>
+      <Volume>1</Volume>
+      <Loop>On</Loop>
+      <Memo />
+    </Item>
+  </Items>
+</Param>
