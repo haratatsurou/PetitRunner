@@ -108,5 +108,29 @@
       <Name>title</Name>
       <FileName>a2dc676a-6924-4d88-8372-a9b5099d2c75</FileName>
     </Item>
+    <Item>
+      <Name>backhground</Name>
+      <FileName>8654536e-fe54-49dd-b717-5ede52b84733</FileName>
+    </Item>
+    <Item>
+      <Name>gameover</Name>
+      <FileName>984ac639-3508-4773-b65d-14a2a73c4ba3</FileName>
+    </Item>
+    <Item>
+      <Name>gameover2</Name>
+      <FileName>69e6cbf6-7710-4ee6-b266-9b9c8ff10c25</FileName>
+    </Item>
+    <Item>
+      <Name>backhground2</Name>
+      <FileName>95a51cc2-a187-4674-b014-70bfe1dc958e</FileName>
+    </Item>
+    <Item>
+      <Name>toge3</Name>
+      <FileName>ae96ff3f-7f7c-4d79-bece-b51cb82cfc58</FileName>
+    </Item>
+    <Item>
+      <Name>time</Name>
+      <FileName>507beab3-d4b1-4fd3-b0f5-6d8a7dadc639</FileName>
+    </Item>
   </Items>
 </Param>

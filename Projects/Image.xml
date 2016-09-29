@@ -5,6 +5,20 @@
   <Open>True</Open>
   <Items>
     <Item>
+      <Id>1e7381ef-130e-4dab-8223-9095fb51aafa</Id>
+      <Name>backhground</Name>
+      <SrcFileName>backhground.png</SrcFileName>
+      <DefaultDivideSize>
+        <Width>1</Width>
+        <Height>1</Height>
+      </DefaultDivideSize>
+      <UseAnimation>True</UseAnimation>
+      <UseFont>True</UseFont>
+      <UseWallPaper>True</UseWallPaper>
+      <ThumbnailHeight>-1</ThumbnailHeight>
+      <Memo />
+    </Item>
+    <Item>
       <Id>75fb9343-264b-45bc-b647-4e7e42bb8faa</Id>
       <Name>togetoge</Name>
       <SrcFileName>togetoge.png</SrcFileName>

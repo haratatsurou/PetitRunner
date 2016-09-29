@@ -5,10 +5,6 @@
   <Open>True</Open>
   <Items>
     <Item>
-      <Name>Start</Name>
-      <FileName>fdf00be3-0e13-431c-854b-a7453c5b3402</FileName>
-    </Item>
-    <Item>
       <Name>Main</Name>
       <FileName>9c027231-8f53-4cd3-a246-5db5eaaddd8e</FileName>
     </Item>
@@ -17,8 +13,8 @@
       <FileName>f976d536-567e-4f62-ac55-ffac80c536be</FileName>
     </Item>
     <Item>
-      <Name>Result</Name>
-      <FileName>c51423fe-b6ad-4036-af02-19115696ce50</FileName>
+      <Name>Start</Name>
+      <FileName>fdf00be3-0e13-431c-854b-a7453c5b3402</FileName>
     </Item>
   </Items>
 </Param>

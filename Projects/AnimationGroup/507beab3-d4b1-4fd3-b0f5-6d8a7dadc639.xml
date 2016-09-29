@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Id>507beab3-d4b1-4fd3-b0f5-6d8a7dadc639</Id>
+  <Name>time</Name>
+  <Open>False</Open>
+  <Items>
+    <Item>
+      <Id>457d4b8b-312d-47ec-b8c8-ef76217b9791</Id>
+      <Name>time</Name>
+      <SettingParam>
+        <Id>147d8314-73cb-4a25-b927-d4a3bc9f2bbb</Id>
+        <Type>Text</Type>
+        <CompositeMode>Normal</CompositeMode>
+        <ImageId />
+        <DivideCount>
+          <Width>1</Width>
+          <Height>1</Height>
+        </DivideCount>
+        <SquareImage>False</SquareImage>
+        <RoundCorner>False</RoundCorner>
+        <RoundSize>1</RoundSize>
+        <TextId>bf6d80a7-c93c-4ce8-9925-b12806abcdaf</TextId>
+        <FontId>1218182b-31de-40be-a410-674e61f8de91</FontId>
+        <FontSize>16</FontSize>
+        <AutoReturn>False</AutoReturn>
+        <ColumnSpace>0</ColumnSpace>
+        <LineSpace>0</LineSpace>
+        <PositionType>LeftTop</PositionType>
+        <AdjustX>0</AdjustX>
+        <AdjustY>0</AdjustY>
+        <Loop>Infinity</Loop>
+        <LoopCount>0</LoopCount>
+        <ReturnTop>False</ReturnTop>
+      </SettingParam>
+      <Open>False</Open>
+      <FrameDatas>
+        <Item>
+          <Id>ff2cf099-79aa-4b28-8ef0-f2b73e844555</Id>
+          <PatternPos>
+            <X>0</X>
+            <Y>0</Y>
+          </PatternPos>
+          <X>0</X>
+          <Y>0</Y>
+          <Width>68</Width>
+          <Height>16</Height>
+          <Time>1</Time>
+          <Interpolation>Linear</Interpolation>
+          <SEId />
+          <OffsetX>0</OffsetX>
+          <OffsetY>0</OffsetY>
+          <Priority>0</Priority>
+          <CenterX>34</CenterX>
+          <CenterY>8</CenterY>
+          <ScaleX>1</ScaleX>
+          <ScaleY>1</ScaleY>
+          <AngleZ>0</AngleZ>
+          <Color>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+          </Color>
+          <UseHorzReverse>False</UseHorzReverse>
+          <UseVertReverse>False</UseVertReverse>
+        </Item>
+      </FrameDatas>
+      <ChildDatas />
+      <Memo />
+    </Item>
+  </Items>
+  <Memo />
+</Param>

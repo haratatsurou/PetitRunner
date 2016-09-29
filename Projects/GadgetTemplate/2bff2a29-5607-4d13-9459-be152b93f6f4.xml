@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Param>
-  <Id>6abf04ca-5a55-41b5-8d36-2ccfe5798b28</Id>
-  <Name>assist2</Name>
+  <Id>2bff2a29-5607-4d13-9459-be152b93f6f4</Id>
+  <Name>backhground2</Name>
   <SettingParam>
-    <Id>3ddd4042-e68a-4e70-b17d-f1900515be2b</Id>
+    <Id>deada3c7-c0e4-4812-97b5-9d9e6de80add</Id>
     <BaseGadgetId>a473d190-27e7-4e84-ba30-38c98e879432</BaseGadgetId>
-    <ScriptId>3a6e029e-ecff-4c50-ab53-2c4369e521f5</ScriptId>
-    <AnimationGroupId>43fba0c1-fed0-419e-bda9-518b38f68df3</AnimationGroupId>
+    <ScriptId>15108f51-925d-4591-9699-5f8bd0b92046</ScriptId>
+    <AnimationGroupId>95a51cc2-a187-4674-b014-70bfe1dc958e</AnimationGroupId>
     <ActiveStart>True</ActiveStart>
     <MarginLeft>0</MarginLeft>
     <MarginTop>0</MarginTop>

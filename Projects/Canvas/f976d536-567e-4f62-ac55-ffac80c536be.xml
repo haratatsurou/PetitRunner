@@ -53,18 +53,18 @@
       <LayoutDataList>
         <Item>
           <Type>Character</Type>
-          <Id>9808d4b8-f35c-4b62-8fef-8e946663e550</Id>
-          <Name>assist2</Name>
+          <Id>0d71eeb8-f37a-4d2e-afbe-d40a7af313b5</Id>
+          <Name>time</Name>
           <View>True</View>
           <BasicParam>
-            <Id>0f19bcf3-752e-4345-83c5-b86436d2210a</Id>
-            <LocationX>785</LocationX>
-            <LocationY>519</LocationY>
+            <Id>91ae4d8d-6421-4004-9045-a4be8411cb7e</Id>
+            <LocationX>805</LocationX>
+            <LocationY>509</LocationY>
             <Priority>0</Priority>
-            <AnimationId>f89c0ef0-b7bb-46e3-85d4-efc47151be22</AnimationId>
+            <AnimationId>457d4b8b-312d-47ec-b8c8-ef76217b9791</AnimationId>
           </BasicParam>
           <ColorParam>
-            <Id>d1d4f172-3322-42bf-9f52-c34311992d75</Id>
+            <Id>e8150ec1-8bf1-4851-b323-39dcd847c100</Id>
             <Color>
               <R>255</R>
               <G>255</G>
@@ -73,18 +73,18 @@
             </Color>
           </ColorParam>
           <AngleParam>
-            <Id>230e2e95-4f3c-42f1-9ad8-c5894b8e1c51</Id>
+            <Id>2ae2b575-e092-475b-bdf3-9439fc6e460c</Id>
             <AngleX>0</AngleX>
             <AngleY>0</AngleY>
             <AngleZ>0</AngleZ>
           </AngleParam>
           <ScaleParam>
-            <Id>ed59b05e-66fc-4dfc-afee-7681af24697c</Id>
-            <ScaleX>1.713325</ScaleX>
-            <ScaleY>1.673383</ScaleY>
+            <Id>b170fc55-8c94-48fd-b9fb-b0d6f94155c2</Id>
+            <ScaleX>3.575337</ScaleX>
+            <ScaleY>3.575337</ScaleY>
           </ScaleParam>
-          <ObjectId>6abf04ca-5a55-41b5-8d36-2ccfe5798b28</ObjectId>
-          <AnimationGroupId>43fba0c1-fed0-419e-bda9-518b38f68df3</AnimationGroupId>
+          <ObjectId>a09e4998-22e1-4202-9f91-04fc3e2d7933</ObjectId>
+          <AnimationGroupId>507beab3-d4b1-4fd3-b0f5-6d8a7dadc639</AnimationGroupId>
           <Memo />
         </Item>
         <Item>

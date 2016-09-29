@@ -12,5 +12,13 @@
       <Name>title</Name>
       <FileName>2a33c195-92fc-44a4-a179-a003348a750c</FileName>
     </Item>
+    <Item>
+      <Name>gameover</Name>
+      <FileName>df5d0553-dfc3-41d2-9ffa-4bbf107c2d33</FileName>
+    </Item>
+    <Item>
+      <Name>time</Name>
+      <FileName>bf6d80a7-c93c-4ce8-9925-b12806abcdaf</FileName>
+    </Item>
   </Items>
 </Param>
