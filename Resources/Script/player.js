@@ -25,10 +25,17 @@ player.prototype.doUpdate = function() {
     // 継承元GadgetのdoUpdate()呼び出し    
     Sbt.Gadget.prototype.doUpdate.call(this);
     if (Sbt.global.MODE_END != 2) {
+    	//設置物との接触判定
         if (this.EnemyCollision()) {
             Deathcounter++;
             if (Deathcounter == 3) {
-                this.canvas.Result();
+                //this.canvas.Result();
+                Sbt.global.timer-=60;
+                if(Sbt.global.speed-10<0){
+                Sbt.global.speed-=10;
+                }else{
+                	 Sbt.global.speed = 10;
+                }
                 Deathcounter = 0;
             }
             return;
@@ -38,6 +45,7 @@ player.prototype.doUpdate = function() {
                 //敵との距離を判別(スコア加算)
                 // this.addPoint();
                 this.location[1] += (0.5 * gravity * i) - 10;
+                Sbt.global.timer-=10;
                 if (i === 5) {
                     downflag = true;
                 }
@@ -47,6 +55,11 @@ player.prototype.doUpdate = function() {
                 jumpflag = false;
                 i++;
                 this.location[1] += (0.5 * gravity * i) - 10;
+                if(Sbt.global.timer<=1800){
+                    Sbt.global.timer+=60;
+                }else{
+                	  Sbt.global.timer=60*this.app.frameRate
+                }
                 if (i === 4) {
                     downflag = true;
                 }
