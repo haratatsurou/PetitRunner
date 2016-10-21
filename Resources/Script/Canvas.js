@@ -30,7 +30,7 @@ Canvas.prototype.doInitialize = function() {
 
     // ※Gadget初期化前に必要な処理はこの下に追加してください
     Sbt.global.score = 0;
-    Sbt.global.timer = 60*this.app.frameRate;
+    Sbt.global.timer = 30*this.app.frameRate;
     console.log(Sbt.global.timer);
     Sbt.global.speed = 10;
     Sbt.global.pos = 200;

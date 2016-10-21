@@ -1,94 +1,94 @@
-﻿//
-// ### SmileBoom Petit Developer：Gadget Template Script ###
-//
-//   クラス名：player
-// 親クラス名：Sbt.Gadget
-//
-// コンテキストメニュー（右クリックで開くメニュー）でタッチや描画用のメソッドが追加できます。
-//
+﻿var player = function() {};
 
-//
-// ### 定数 ###
-//
 
-//
-// ### コンストラクタ ###
-//
-
-var player = function() {};
-
-//
-// ### 継承 ###
-//
-player.prototype = new Sbt.Gadget();
-
-//
-// ### 初期化処理 ###
-//
-player.prototype.doInitialize = function() {
-    this.setAnimation("default");
-};
-
-//
-// ### 毎フレームごとの処理 ###
-//
 var i = 0;
 var downflag = false;
 var up = 7;
 var gravity = -9.8;
 var playerBottom;
 var defpos_y;
+var Deathcounter = 0;
 var jumpflag = false;
 var doublejumpflag = false;
+var jumpcount = 0;
+
+player.prototype = new Sbt.Gadget();
+
+//
+// ### 初期化処理 ###
+//
+
+player.prototype.doInitialize = function() {
+    this.setAnimation("default");
+};
 player.prototype.doUpdate = function() {
     // 継承元GadgetのdoUpdate()呼び出し    
     Sbt.Gadget.prototype.doUpdate.call(this);
-    if (this.EnemyCollision()) {
-        //alert("死亡");
-        return;
-    } else {
-        //スコア加算
-        Sbt.global.score += Sbt.global.scale;
-        if (jumpflag) {
-            i++;
-            this.location[1] += (0.5 * gravity * i) - 10;
-            if (i === 5) {
-                downflag = true;
+    if (Sbt.global.MODE_END != 2) {
+    	//設置物との接触判定
+        if (this.EnemyCollision()) {
+            Deathcounter++;
+            if (Deathcounter == 3) {
+                //this.canvas.Result();
+                Sbt.global.timer-=120;
+                if(Sbt.global.speed-10<0){
+                Sbt.global.speed-=10;
+                }else{
+                	 Sbt.global.speed = 10;
+                }
+                Deathcounter = 0;
             }
-        }
-        if (doublejumpflag) {
-            downflag = false;
-            jumpflag = false;
-            i++;
-            this.location[1] += (0.5 * gravity * i) - 10;
-            if (i === 4) {
-                downflag = true;
+            return;
+        } else {
+            if (jumpflag) {
+                i++;
+                //敵との距離を判別(スコア加算)
+                // this.addPoint();
+                this.location[1] += (0.5 * gravity * i) - 10;
+                Sbt.global.timer-=10;
+                if (i === 5) {
+                    downflag = true;
+                }
             }
-        }
-        if (downflag) {
-
-            jumpflag = false;
-            doublejumpflag = false;
-            i--;
-            this.location[1] -= 0.25 * 9.8 * i;
-            if (this.Landing(this.location[1])) {
+            if (doublejumpflag) {
                 downflag = false;
-                this.location[1] = defpos_y;
-                i = 0;
+                jumpflag = false;
+                i++;
+                this.location[1] += (0.5 * gravity * i) - 10;
+                var frame = this.app.frameRate;
+                var time=Math.floor( (Sbt.global.timer + frame- 1) / frame )
+                if(time<60){
+                    Sbt.global.timer+=60;
+                }else{
+                	  Sbt.global.timer=60*this.app.frameRate
+                }
+                if (i === 4) {
+                    downflag = true;
+                }
+            }
+            //着地するまで操作不能に
+            if (downflag) {
+                jumpflag = false;
+                doublejumpflag = false;
+                i--;
+                this.location[1] -= 0.25 * 9.8 * i;
+                if (this.Landing(this.location[1])) {
+                    downflag = false;
+                    this.location[1] = defpos_y;
+                    i = 0;
+                    return;
+                }
+            }
+            if (this.animation.id === "default") {
                 return;
             }
-        }
-
-        if (this.animation.id === "default") {
-            return;
         }
     }
     // ※この下にプログラムを追加してください
 };
 
-var jumpcount = 0;
 player.prototype.doMouseUp = function(location, id) {
-    //着地しているとき
+    //着地しているときジャンプ可能にする
     if (this.Landing(this.location[1])) {
         defpos_y = this.location[1];
         jumpflag = true;
@@ -96,18 +96,15 @@ player.prototype.doMouseUp = function(location, id) {
         jumpcount = 0;
     }
     jumpcount++;
+    //ダブルジャンプ
     if (jumpcount == 2) {
-        console.log(jumpcount + "jump");
         doublejumpflag = true;
         this.canvas.resource.playSe("jump");
         i = 0;
-
     }
-
     return true; // true：以降のCanvas/Gadgetは処理されません
+
 };
-
-
 //着地の判定をとる関数
 player.prototype.Landing = function(playerX) {
 
@@ -117,37 +114,32 @@ player.prototype.Landing = function(playerX) {
 
     for (var i = Tiles.length - 1; i >= 0; --i) {
         var hoge = Tiles[i];
-
         var tileTop = hoge.location[1] - hoge.height / 2;
         var tileButtom = tileTop + hoge.height;
-        //  console.log(tileTop + ":tile:" + playerBottom);
         if (playerBottom >= tileTop) {
             return true;
         }
     }
     return false;
-
 };
-//敵との判定をとる関数
+//敵との判定をとる関数(設置型)
 player.prototype.EnemyCollision = function() {
-
     var Enemys = this.canvas.arrayhoge;
     var playerLeft = parseInt(this.location[0] - this.width / 2);
     var playerTop = parseInt(this.location[1] - this.height / 2);
     var playerRight = parseInt(playerLeft + this.width);
     var playerBottom = parseInt(playerTop + this.height);
+    for (var i = 0; i < Enemys.length; i++) {
+        var EnemyLeft = Enemys[i].location[0] - Enemys[i].width / 2;
+        var EnemyRight = EnemyLeft + Enemys[i].width;
 
-    var EnemyLeft = Enemys[0].location[0] - Enemys[0].width / 2;
-    var EnemyRight = EnemyLeft + Enemys[0].width;
-    if ((playerLeft < EnemyRight) && (playerRight > EnemyLeft)) {
-        var EnemyTop = Enemys[0].location[1] - Enemys[0].height / 2;
-        var EnemyBottom = EnemyTop + Enemys[0].height;
-        if ((playerTop < EnemyBottom) && (playerBottom > EnemyTop)) {
-            //console.log("playerLeft="+playerLeft+"playerTop="+playerTop+"playerRight="+playerRight+"playerBottom="+playerBottom);
-            //console.log("EnemyLeft="+EnemyLeft+"EnemyTop="+EnemyTop+"EnemyRigth="+EnemyRight+"EnemyBottom="+EnemyBottom);
-            return true;
+        if ((playerLeft < EnemyRight) && (playerRight > EnemyLeft)) {
+            var EnemyTop = Enemys[i].location[1] - Enemys[i].height / 2;
+            var EnemyBottom = EnemyTop + Enemys[i].height;
+            if ((playerTop < EnemyBottom) && (playerBottom > EnemyTop)) {
+                return true;
+            }
         }
     }
     return false;
-
 };

@@ -30,7 +30,7 @@ player.prototype.doUpdate = function() {
             Deathcounter++;
             if (Deathcounter == 3) {
                 //this.canvas.Result();
-                Sbt.global.timer-=120;
+                Sbt.global.timer-=150;
                 if(Sbt.global.speed-10<0){
                 Sbt.global.speed-=10;
                 }else{
@@ -45,7 +45,7 @@ player.prototype.doUpdate = function() {
                 //敵との距離を判別(スコア加算)
                 // this.addPoint();
                 this.location[1] += (0.5 * gravity * i) - 10;
-                Sbt.global.timer-=10;
+                Sbt.global.timer-=20;
                 if (i === 5) {
                     downflag = true;
                 }

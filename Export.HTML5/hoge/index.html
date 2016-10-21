@@ -13,6 +13,9 @@
 		<script src="./Script/_background2.js"></script>
 		<script src="./Script/bar2.js"></script>
 		<script src="./Script/Score.js"></script>
+		<script src="./Script/Start.js"></script>
+		<script src="./Script/backhground2.js"></script>
+		<script src="./Script/assist2.js"></script>
 		<link rel="stylesheet" type="text/css" href="./css/default.css" media="all">
 		<link rel="stylesheet" type="text/css" href="./css/font.css" media="all">
 
@@ -20,7 +23,7 @@
 			var app;
 
 			function init() {
-				app = new Sbt.App("screen", 15);
+				app = new Sbt.App("screen", 30);
 
 				app.start("./", "sbtdata.json", update);
 			}
