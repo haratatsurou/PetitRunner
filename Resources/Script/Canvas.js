@@ -63,6 +63,7 @@ Canvas.prototype.doUpdate = function() {
 
 
         for (var i = 0; i < this.arrayhoge.length; i++) {
+        	console.log(this.arrayhoge.length);
             this.arrayhoge[i].location[0] -= speed;
             if (this.arrayhoge[i].location[0] <= -pos) {
                 this.arrayhoge[i].destroy();

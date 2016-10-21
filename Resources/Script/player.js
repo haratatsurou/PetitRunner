@@ -109,22 +109,22 @@ player.prototype.Landing = function(playerX) {
 };
 //敵との判定をとる関数(設置型)
 player.prototype.EnemyCollision = function() {
-
     var Enemys = this.canvas.arrayhoge;
     var playerLeft = parseInt(this.location[0] - this.width / 2);
     var playerTop = parseInt(this.location[1] - this.height / 2);
     var playerRight = parseInt(playerLeft + this.width);
     var playerBottom = parseInt(playerTop + this.height);
-    var EnemyLeft = Enemys[0].location[0] - Enemys[0].width / 2;
-    var EnemyRight = EnemyLeft + Enemys[0].width;
+    for (var i = 0; i < Enemys.length; i++) {
+        var EnemyLeft = Enemys[i].location[0] - Enemys[i].width / 2;
+        var EnemyRight = EnemyLeft + Enemys[i].width;
 
-    if ((playerLeft < EnemyRight) && (playerRight > EnemyLeft)) {
-        var EnemyTop = Enemys[0].location[1] - Enemys[0].height / 2;
-        var EnemyBottom = EnemyTop + Enemys[0].height;
-        if ((playerTop < EnemyBottom) && (playerBottom > EnemyTop)) {
-            return true;
+        if ((playerLeft < EnemyRight) && (playerRight > EnemyLeft)) {
+            var EnemyTop = Enemys[i].location[1] - Enemys[i].height / 2;
+            var EnemyBottom = EnemyTop + Enemys[i].height;
+            if ((playerTop < EnemyBottom) && (playerBottom > EnemyTop)) {
+                return true;
+            }
         }
     }
     return false;
-
 };
