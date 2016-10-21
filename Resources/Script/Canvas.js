@@ -55,15 +55,17 @@ Canvas.prototype.doUpdate = function() {
     // 継承元CanvasのdoUpdate()呼び出し
     Sbt.Canvas.prototype.doUpdate.call(this);
     if (Sbt.global.MODE_END != 2) {
+    	if(0<Sbt.global.timer){
     	 Sbt.global.timer--;
+    	}else{
+    		Sbt.global.timer=0;
+    	}
         if (Sbt.global.speed < 40) {
             Sbt.global.speed += 0.01;
             Sbt.global.scale += 0.001;
         }
         var speed = Sbt.global.speed;
         var pos = Sbt.global.pos;
-
-
         for (var i = 0; i < this.arrayhoge.length; i++) {
         	console.log(this.arrayhoge.length);
             this.arrayhoge[i].location[0] -= speed;
@@ -73,6 +75,9 @@ Canvas.prototype.doUpdate = function() {
             }
 
         }
+    }
+    if(Sbt.global.timer==0){
+    	this.canvas.Result();
     }
 
 };

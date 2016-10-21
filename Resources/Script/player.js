@@ -30,7 +30,7 @@ player.prototype.doUpdate = function() {
             Deathcounter++;
             if (Deathcounter == 3) {
                 //this.canvas.Result();
-                Sbt.global.timer-=60;
+                Sbt.global.timer-=120;
                 if(Sbt.global.speed-10<0){
                 Sbt.global.speed-=10;
                 }else{
@@ -55,7 +55,9 @@ player.prototype.doUpdate = function() {
                 jumpflag = false;
                 i++;
                 this.location[1] += (0.5 * gravity * i) - 10;
-                if(Sbt.global.timer<=1800){
+                var frame = this.app.frameRate;
+                var time=Math.floor( (Sbt.global.timer + frame- 1) / frame )
+                if(time<60){
                     Sbt.global.timer+=60;
                 }else{
                 	  Sbt.global.timer=60*this.app.frameRate
